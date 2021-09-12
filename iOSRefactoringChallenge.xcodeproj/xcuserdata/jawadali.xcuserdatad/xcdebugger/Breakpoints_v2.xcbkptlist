@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C9723A2A-6F32-4F5F-9453-167EFCE73453"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F29E7F11-CDDA-4283-A77F-B70781246AF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSRefactoringChallenge/Network/APIClient/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "execute(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCED88A7-6A7C-4887-8F96-1909019A4C42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSRefactoringChallenge/Repositories/PlayListRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getPlayList(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BCED88A7-6A7C-4887-8F96-1909019A4C42 - 1fb71fc8dbc8ad4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (iOSRefactoringChallenge.TracksResponse) -&gt; Swift.Array&lt;iOSRefactoringChallenge.TrackType&gt; in iOSRefactoringChallenge.RemotePlayListRepository.getPlayList(with: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;iOSRefactoringChallenge.TrackType&gt;, iOSRefactoringChallenge.DataError&gt;"
+                  moduleName = "iOSRefactoringChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jawadali/Downloads/iOSRefactoringChallenge/iOSRefactoringChallenge/Repositories/PlayListRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "BCED88A7-6A7C-4887-8F96-1909019A4C42 - dc7ca484b9e19629"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (iOSRefactoringChallenge.TrackResponse) -&gt; iOSRefactoringChallenge.TrackType in closure #1 (iOSRefactoringChallenge.TracksResponse) -&gt; Swift.Array&lt;iOSRefactoringChallenge.TrackType&gt; in iOSRefactoringChallenge.RemotePlayListRepository.getPlayList(with: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;iOSRefactoringChallenge.TrackType&gt;, iOSRefactoringChallenge.DataError&gt;"
+                  moduleName = "iOSRefactoringChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jawadali/Downloads/iOSRefactoringChallenge/iOSRefactoringChallenge/Repositories/PlayListRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "699832DA-6797-4450-AC40-386A2D9A6C78"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSRefactoringChalengeTests/Scene/PlayList/PlayListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "test_error_case()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DA88BF6-D5AA-4EB2-826F-926B4E43C349"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSRefactoringChallenge/Repositories/LocalPlayListRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getPlayList(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
